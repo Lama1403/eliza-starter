@@ -24,7 +24,7 @@ import {
 } from "@ai16z/eliza";
 import { bootstrapPlugin } from "@ai16z/plugin-bootstrap";
 import { solanaPlugin } from "@ai16z/plugin-solana";
-import { nodePlugin } from "@ai16z/plugin-node";
+import { NodePlugin as NodePluginType, createNodePlugin } from "@ai16z/plugin-node";
 import Database from "better-sqlite3";
 import fs from "fs";
 import readline from "readline";
@@ -33,6 +33,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { character } from "./character.ts";
 import type { DirectClient } from "@ai16z/client-direct";
+import {zilliqaPlugin } from "../packages/plugin-zilliqa/src/index.js";
+
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
@@ -104,6 +106,7 @@ export function getTokenForProvider(
   provider: ModelProviderName,
   character: Character
 ) {
+ 
   switch (provider) {
     case ModelProviderName.OPENAI:
       return (
@@ -206,28 +209,34 @@ export function createAgent(
   cache: ICacheManager,
   token: string
 ) {
-  elizaLogger.success(
-    elizaLogger.successesTitle,
-    "Creating runtime for character",
-    character.name
-  );
-  return new AgentRuntime({
+  const plugins = [
+    bootstrapPlugin,
+    createNodePlugin(),
+    character.settings.secrets?.WALLET_PUBLIC_KEY ? solanaPlugin : null,
+    zilliqaPlugin,
+  ].filter(Boolean);
+  
+  console.log('Loaded plugins:', plugins.map(p => p.name)); // Log plugin names
+  console.log('Zilliqa plugin actions:', zilliqaPlugin.actions.map(a => a.name)); // Specifically log Zilliqa actions
+
+  const runtime = new AgentRuntime({
     databaseAdapter: db,
     token,
     modelProvider: character.modelProvider,
     evaluators: [],
     character,
-    plugins: [
-      bootstrapPlugin,
-      nodePlugin,
-      character.settings.secrets?.WALLET_PUBLIC_KEY ? solanaPlugin : null,
-    ].filter(Boolean),
+    plugins,
     providers: [],
     actions: [],
     services: [],
     managers: [],
     cacheManager: cache,
   });
+
+  // Log available actions after runtime initialization
+  console.log('Runtime actions:', runtime.actions?.map(a => a.name));
+  
+  return runtime;
 }
 
 function intializeFsCache(baseDir: string, character: Character) {
@@ -336,6 +345,7 @@ async function handleUserInput(input, agentId) {
 
   try {
     const serverPort = parseInt(settings.SERVER_PORT || "3000");
+    console.log(`Sending request to http://localhost:${serverPort}/${agentId}/message`);
 
     const response = await fetch(
       `http://localhost:${serverPort}/${agentId}/message`,
@@ -351,8 +361,10 @@ async function handleUserInput(input, agentId) {
     );
 
     const data = await response.json();
+    console.log('Full agent response:', JSON.stringify(data, null, 2));
     data.forEach((message) => console.log(`${"Agent"}: ${message.text}`));
   } catch (error) {
     console.error("Error fetching response:", error);
+    console.error(error.stack);
   }
 }

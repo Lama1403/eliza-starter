@@ -1,0 +1,18 @@
+{
+    "name": "plugin-zilliqa",
+    "version": "1.0.1",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "@ai16z/eliza": "v0.1.4-alpha.3",
+        "ethers": "^6.11.1"
+    },
+
+    "scripts": {
+        "build": "tsup --format esm --dts",
+        "dev": "tsup --format esm --dts --watch",
+        "lint": "eslint . --fix"
+    }
+
+}

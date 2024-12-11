@@ -1,0 +1,421 @@
+
+[43m[30m WARN [39m[49m Unsupported engine: wanted: {"node":"23.3.0"} (current: {"node":"v22.11.0","pnpm":"9.14.4"})
+
+> eliza-docs@0.1.5-alpha.1 build /Users/zilliqa/Desktop/workhere/ava/docs
+> docusaurus build
+
+[36m[1m[INFO][22m[39m [34m[1m[en][22m[39m Creating an optimized production build...
+[96m[info][0m Loaded plugin typedoc-plugin-markdown
+[93m[warning][0m The signature embed has an @param with name "options", which was not used
+[93m[warning][0m The signature generateText has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature generateText has an @param with name "opts.frequency_penalty", which was not used
+[93m[warning][0m The signature generateText has an @param with name "opts.presence_penalty", which was not used
+[93m[warning][0m The signature generateText has an @param with name "opts.temperature", which was not used
+[93m[warning][0m The signature generateText has an @param with name "opts.max_context_length", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.stop", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.frequency_penalty", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.presence_penalty", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.temperature", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.serverUrl", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.max_context_length", which was not used
+[93m[warning][0m The signature generateShouldRespond has an @param with name "opts.max_response_length", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.stop", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.frequency_penalty", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.presence_penalty", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.temperature", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.serverUrl", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.token", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.max_context_length", which was not used
+[93m[warning][0m The signature generateTrueOrFalse has an @param with name "opts.max_response_length", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.stop", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.frequency_penalty", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.presence_penalty", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.temperature", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.serverUrl", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.token", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.max_context_length", which was not used
+[93m[warning][0m The signature generateTextArray has an @param with name "opts.max_response_length", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.stop", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.frequency_penalty", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.presence_penalty", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.temperature", which was not used
+[93m[warning][0m The signature generateMessageResponse has an @param with name "opts.max_context_length", which was not used
+[93m[warning][0m The signature formatMessages has an @param with name "messages", which was not used
+[93m[warning][0m The signature formatMessages has an @param with name "actors", which was not used
+[93m[warning][0m The signature AgentRuntime.constructor has an @param with name "opts.memoryManagers", which was not used
+[93m[warning][0m The signature AgentRuntime.constructor has an @param with name "opts.model", which was not used
+[93m[warning][0m The signature AgentRuntime.constructor has an @param with name "opts.embeddingModel", which was not used
+[93m[warning][0m The signature AgentRuntime.processActions has an @param with name "content", which was not used
+[93m[warning][0m The signature AgentRuntime.ensureRoomExists has an @param with name "userId", which was not used
+[96m[info][0m Documentation generated at ./api
+
+[32m●[39m [32mClient[39m [37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m  (0%)  
+ 
+
+[33m◯ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m setup (7%) [90mcompile[39m 
+ [90mExternalsPlugin[39m
+
+[33m◯ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 0/0 dependencies 0/0 modules 0 activ[39m
+[90me[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 1/1 dependencies 0/0 modules 0 activ[39m
+[90me[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 0/0 dependencies 0/0 modules 0 activ[39m
+[90me[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 38/66 dependencies 2/19 modules 0 ac[39m
+[90mtive[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 1/1 dependencies 0/0 modules 0 activ[39m
+[90me[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 38/66 dependencies 2/19 modules 0 ac[39m
+[90mtive[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (10%) [90m0/1 entries 1/1 dependencies 0/0 modules 0 activ[39m
+[90me[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 580/1036 dependencies 131/300 module[39m
+[90ms 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 787/1643 dependencies 137/500 module[39m
+[90ms 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 580/1036 dependencies 131/300 module[39m
+[90ms 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 787/1643 dependencies 137/500 module[39m
+[90ms 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 937/1036 dependencies 131/657 module[39m
+[90ms 1 active[39m 
+ [90mjson|/Users/zilliqa/Desktop/workhere/ava/docs/.docusaurus/globalData.json[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 1553/1643 dependencies 137/737 modul[39m
+[90mes 1 active[39m 
+ [90mjson|/Users/zilliqa/Desktop/workhere/ava/docs/.docusaurus/globalData.json[39m
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 939/1099 dependencies 137/659 module[39m
+[90ms 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 1589/3373 dependencies 145/738 modul[39m
+[90mes 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 2400/2644 dependencies 157/1147 modu[39m
+[90mles 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (13%) [90m0/1 entries 3278/3542 dependencies 200/1246 modu[39m
+[90mles 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (12%) [90m0/1 entries 2400/2644 dependencies 157/1147 modu[39m
+[90mles 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (13%) [90m0/1 entries 3278/3542 dependencies 200/1246 modu[39m
+[90mles 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (44%) [90m0/1 entries 5900/6226 dependencies 2062/2755 mod[39m
+[90mules 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (44%) [90m0/1 entries 5900/6226 dependencies 2062/2755 mod[39m
+[90mules 0 active[39m 
+ 
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (70%) [90mfinish module graph[39m 
+ [90mInnerGraphPlugin[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (70%)  
+ [90mplugins[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (71%)  
+ [90mdependencies optimization[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (73%)  
+ [90mafter chunk graph[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (78%)  
+ [90mchunk modules optimization[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (87%)  
+ [90mcode generation[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (41%) [90m0/1 entries 5734/5891 dependencies 1900/2391 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[37m█[39m[37m█[39m sealing (92%)  
+ [90masset processing[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (43%) [90m0/1 entries 6400/6651 dependencies 2056/2780 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m emitting (98%)  
+ [90mafter emit[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m building (43%) [90m0/1 entries 6400/6651 dependencies 2056/2780 mod[39m
+[90mules 0 active[39m 
+ 
+
+[33m✔ Server[39m
+[90m  Compiled successfully in 4.98s[39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (70%) [90mfinish module graph[39m 
+ [90mInnerGraphPlugin[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (71%)  
+ [90mdependencies optimization[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (75%) [90mchunk optimization[39m 
+ [90mMergeDuplicateChunksPlugin[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (78%)  
+ [90mchunk modules optimization[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m[37m█[39m sealing (87%)  
+ [90mcode generation[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m sealing (92%) [90masset processing[39m 
+ [90mTerserPlugin[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m sealing (92%) [90masset processing[39m 
+ [90mCssMinimizerPlugin[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[37m█[39m[37m█[39m sealing (92%)  
+ [90masset processing[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m emitting (98%)  
+ [90mafter emit[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G
+[32m✔ Client[39m
+[90m  Compiled successfully in 10.40s[39m
+
+[33m✔ Server[39m
+[90m  [39m
+
+
+[32m●[39m [32mClient[39m [32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m[32m█[39m cache (99%) [90mshutdown[39m [90mIdleFileCachePlugin[39m
+ [90mserialize pack[39m
+
+[33m●[39m [33mServer[39m [33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m[33m█[39m cache (99%) [90mshutdown[39m [90mIdleFileCachePlugin[39m
+ [90mstored[39m
+
+docusaurus-lunr-search:: Building search docs and lunr index file
+docusaurus-lunr-search:: Start scanning documents in 10 threads
+[?25l⸨⸩                   ⠋ scanning documents...[0m[K⸨⸩                   ⠋ scanning documents...[0m[K⸨⸩                   ⠋ scanning documents...[0m[K⸨[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ scanned 12 files out of 577[0m[K⸨[107;97m#[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ scanned 20 files out of 577[0m[K⸨[107;97m#[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ scanned 30 files out of 577[0m[K⸨[107;97m#[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ scanned 43 files out of 577[0m[K⸨[107;97m##[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ scanned 56 files out of 577[0m[K⸨[107;97m##[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠧ scanned 75 files out of 577[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠦ scanned 89 files out of 577[0m[K⸨[107;97m###[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠇ scanned 106 files out of 577[0m[K⸨[107;97m####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ scanned 134 files out of 577[0m[K⸨[107;97m####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ scanned 140 files out of 577[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ scanned 147 files out of 577[0m[K⸨[107;97m#####[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠋ scanned 162 files out of 577[0m[K⸨[107;97m######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ scanned 188 files out of 577[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ scanned 212 files out of 577[0m[K⸨[107;97m#######[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ scanned 234 files out of 577[0m[K⸨[107;97m########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠴ scanned 254 files out of 577[0m[K⸨[107;97m########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ scanned 270 files out of 577[0m[K⸨[107;97m#########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ scanned 283 files out of 577[0m[K⸨[107;97m##########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠏ scanned 308 files out of 577[0m[K⸨[107;97m###########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ scanned 337 files out of 577[0m[K⸨[107;97m###########[0m[100;90m⠂⠂⠂⠂⠂⠂⠂[0m⸩ ⠙ scanned 365 files out of 577[0m[K⸨[107;97m############[0m[100;90m⠂⠂⠂⠂⠂⠂[0m⸩ ⠸ scanned 397 files out of 577[0m[K⸨[107;97m#############[0m[100;90m⠂⠂⠂⠂⠂[0m⸩ ⠸ scanned 432 files out of 577[0m[K⸨[107;97m##############[0m[100;90m⠂⠂⠂⠂[0m⸩ ⠋ scanned 460 files out of 577[0m[K⸨[107;97m###############[0m[100;90m⠂⠂⠂[0m⸩ ⠹ scanned 482 files out of 577[0m[K⸨[107;97m#################[0m[100;90m⠂[0m⸩ ⠙ scanned 538 files out of 577[0m[K⸨[107;97m##################[0m⸩ ⠹ scanned 568 files out of 577[0m[K⸨[107;97m##################[0m⸩ ⠦ scanned 577 files out of 577[0m[K⸨[107;97m##################[0m⸩ ⠴ scanned 577 files out of 577[0m[K[K[?25hdocusaurus-lunr-search:: Indexing time: 1.847s
+docusaurus-lunr-search:: indexed 576 documents out of 577
+docusaurus-lunr-search:: writing search-doc.json
+docusaurus-lunr-search:: writing search-doc-1733820402002.json
+docusaurus-lunr-search:: writing lunr-index.json
+docusaurus-lunr-search:: writing lunr-index-1733820402002.json
+docusaurus-lunr-search:: End of process
+[33m[1m[WARNING][22m Docusaurus found broken anchors![39m
+[33m[39m
+[33mPlease check the pages of your site in the list below, and make sure you don't reference any anchor that does not exist.[39m
+[33mNote: it's possible to ignore broken anchors with the 'onBrokenAnchors' Docusaurus configuration, and let the build pass.[39m
+[33m[39m
+[33mExhaustive list of all broken anchors found:[39m
+[33m- Broken anchor on source page path = /eliza/api/classes/AgentRuntime/:[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#agentId[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#serverUrl[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#databaseAdapter[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#modelProvider[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#imageModelProvider[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#messageManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#descriptionManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#loreManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#documentsManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#knowledgeManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#cacheManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#registerMemoryManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#getMemoryManager[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#getService[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#registerService[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#getSetting[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#getConversationLength[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#registerAction[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#processActions[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#ensureParticipantExists[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#ensureUserExists[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#ensureParticipantInRoom[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#ensureConnection[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#ensureRoomExists[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#composeState[39m
+[33m   -> linking to /eliza/api/interfaces/IAgentRuntime/#updateRecentMessageState[39m
+[33m- Broken anchor on source page path = /eliza/api/classes/DatabaseAdapter/:[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getAccountById[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#createAccount[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getMemoriesByRoomIds[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getMemoryById[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getCachedEmbeddings[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getActorDetails[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#searchMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#updateGoalStatus[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#searchMemoriesByEmbedding[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#createMemory[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeMemory[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeAllMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#countMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getGoals[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#updateGoal[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#createGoal[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeGoal[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeAllGoals[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getRoom[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#createRoom[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeRoom[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getRoomsForParticipant[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getRoomsForParticipants[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#addParticipant[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#removeParticipant[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getParticipantsForAccount[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getParticipantsForRoom[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getParticipantUserState[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#setParticipantUserState[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#createRelationship[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getRelationship[39m
+[33m   -> linking to /eliza/api/interfaces/IDatabaseAdapter/#getRelationships[39m
+[33m- Broken anchor on source page path = /eliza/api/classes/MemoryManager/:[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#tableName[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#addEmbeddingToMemory[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#getMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#getCachedEmbeddings[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#searchMemoriesByEmbedding[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#createMemory[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#getMemoriesByRoomIds[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#getMemoryById[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#removeMemory[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#removeAllMemories[39m
+[33m   -> linking to /eliza/api/interfaces/IMemoryManager/#countMemories[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/IBrowserService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/IImageDescriptionService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/IPdfService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/ISpeechService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/ITextGenerationService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/ITranscriptionService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m- Broken anchor on source page path = /eliza/api/interfaces/IVideoService/:[39m
+[33m   -> linking to /eliza/api/classes/Service/#serviceType-1[39m
+[33m[39m
+[32m[1m[SUCCESS][22m[39m Generated static files in [36m[4m"build"[24m[39m.
+[36m[1m[INFO][22m[39m Use [36m`npm run serve`[39m command to test your build locally.
